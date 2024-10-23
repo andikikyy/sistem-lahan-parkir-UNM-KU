@@ -1,0 +1,149 @@
+/* Style yang sudah ada */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: URL("parkir.jpg");
+}
+
+.container {
+    background-color: #e2f1f3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333333;
+    margin: 0 0 20px;
+}
+
+.status {
+    margin-bottom: 20px;
+    background-color: #c0c9cd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    margin: 5px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+    background-color: #ffffff;
+    border: 1px solid #423c88;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3A6D8C;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a1d5d;
+}
+
+#notification {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#parkingList {
+    list-style-type: none;
+    padding: 0;
+}
+#parkingList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.parking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.parking-item button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.parking-item button:hover {
+    background-color: #cc0000;
+}
+
+.parking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.parking-item button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px; /* jarak dari teks */
+}
+
+.parking-item button:hover {
+    background-color: #cc0000;
+}
+
+.parking-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.parking-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.delete-button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #0056b3;
+}
+

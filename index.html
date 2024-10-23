@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Lahan Parkir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistem Lahan Parkir UNM-KU</h1>
+        <div class="status">
+            <p>Slot Mobil: <span id="mobilSlot">20</span> / 20</p>
+            <p>Slot Motor: <span id="motorSlot">15</span> / 15</p>
+        </div>
+        <form id="inputForm">
+            <input type="text" id="plat" placeholder="Nomor Plat" required>
+            <select id="jenis" required>
+                <option value="">Pilih Jenis Kendaraan</option>
+                <option value="mobil">Mobil</option>
+                <option value="motor">Motor</option>
+            </select>
+            <button type="submit">Masukkan Kendaraan</button>
+        </form>
+        
+        <div id="notification"></div>
+        <h2>Daftar Kendaraan yang Parkir</h2>
+        <ul id="parkingList"></ul>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
